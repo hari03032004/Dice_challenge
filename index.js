@@ -11,7 +11,7 @@ if(random1 > random2){
   document.querySelector("h1").textContent = "Player1 win!!!";
 }
 else if( random1 < random2){
-  document.querySelector("h1").textContent = "Player2 !!!";
+  document.querySelector("h1").textContent = "Player2 win!!!";
 }
 else if (random1 === random2){
   document.querySelector("h1").textContent = "Draw";
